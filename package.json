@@ -7,8 +7,11 @@
   "bugs": "https://github.com/doinki/eslint-plugin-trim/issues",
   "exports": {
     ".": "./index.js",
+    "./base": "./base.js",
     "./jest": "./jest.js",
+    "./next": "./next.js",
     "./prettier": "./prettier.js",
+    "./tailwindcss": "./tailwindcss.js",
     "./package.json": "./package.json"
   },
   "homepage": "https://github.com/doinki/eslint-config-sandbox#readme",
@@ -28,6 +31,7 @@
     "@typescript-eslint/parser": "^5.30.6",
     "eslint": "^8.19.0",
     "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^2.7.1",

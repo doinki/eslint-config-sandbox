@@ -12,6 +12,18 @@ npm i -D eslint-config-sandbox
 
 ## Configuration
 
+```json
+{
+  "extends": [
+    "sandbox",
+    "sandbox/next",
+    "sandbox/jest",
+    "sandbox/tailwindcss",
+    "sandbox/prettier"
+  ]
+}
+```
+
 - [airbnb-typescript](https://github.com/iamturns/eslint-config-airbnb-typescript#4-configure-the-eslint-typescript-parser)
 
 ```json
