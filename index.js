@@ -1,3 +1,5 @@
+require('@rushstack/eslint-patch/modern-module-resolution');
+
 module.exports = {
   env: { browser: true },
   extends: [
@@ -45,6 +47,10 @@ module.exports = {
     'typescript-sort-keys/interface': 'warn',
   },
   settings: {
-    'import/resolver': { typescript: { alwaysTryTypes: true } },
+    'import/resolver': {
+      [require.resolve('eslint-import-resolver-typescript')]: {
+        alwaysTryTypes: true,
+      },
+    },
   },
 };
