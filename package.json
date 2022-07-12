@@ -1,0 +1,41 @@
+{
+  "author": {
+    "email": "doinki94@gmail.com",
+    "name": "doinki",
+    "url": "https://github.com/doinki"
+  },
+  "bugs": "https://github.com/doinki/eslint-plugin-trim/issues",
+  "homepage": "https://github.com/doinki/eslint-config-sandbox#readme",
+  "keywords": [
+    "eslint",
+    "react"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "eslint-config-sandbox",
+  "repository": "https://github.com/doinki/eslint-config-sandbox.git",
+  "version": "1.0.0",
+  "dependencies": {
+    "@next/eslint-plugin-next": "^12.2.2",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort-destructure-keys": "^1.4.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-tailwindcss": "^3.6.0",
+    "eslint-plugin-trim": "^0.3.1",
+    "eslint-plugin-typescript-sort-keys": "^2.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "^4.0.0"
+  }
+}
