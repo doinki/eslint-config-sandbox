@@ -15,6 +15,7 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
   extends: ['airbnb-base'],
+  parserOptions: { ecmaVersion: 'latest' },
   plugins: ['simple-import-sort', 'sort-destructure-keys', 'sort-keys-fix'],
   rules: {
     'simple-import-sort/exports': 'warn',
