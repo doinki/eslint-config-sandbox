@@ -21,6 +21,7 @@ const rules = {
 module.exports = {
   env: { browser: true },
   extends: ['./base.js', 'airbnb', 'airbnb/hooks', 'plugin:react/jsx-runtime'],
+  parserOptions: { ecmaVersion: 'latest' },
   plugins: ['trim'],
   rules,
   overrides: [
